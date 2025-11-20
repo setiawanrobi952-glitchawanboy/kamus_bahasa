@@ -1,0 +1,72 @@
+/* Mengatur seluruh halaman */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Tinggi penuh layar */
+    margin: 0;
+}
+
+/* Kontainer utama kamus */
+.container-kamus {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-top: 0;
+}
+
+/* Area input dan tombol */
+.area-cari {
+    display: flex;
+    gap: 10px; /* Jarak antara input dan tombol */
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex-grow: 1; /* Input mengambil sisa ruang */
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer; /* Mengubah kursor saat diarahkan */
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Area hasil terjemahan */
+#areaHasil {
+    margin-top: 20px;
+    font-size: 1.1em;
+}
+
+/* Style untuk pesan sukses (ditemukan) */
+.sukses {
+    color: #28a745; /* Hijau */
+    font-weight: bold;
+}
+
+/* Style untuk pesan error (tidak ditemukan) */
+.error {
+    color: #dc3545; /* Merah */
+}
