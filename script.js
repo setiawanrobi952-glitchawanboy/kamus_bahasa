@@ -3,21 +3,6 @@
 // 'key' (sebelah kiri) adalah bahasa Indonesia.
 // 'value' (sebelah kanan) adalah bahasa Inggris.
 const kamusData = {
-    "kucing": "Cat",
-    "anjing": "Dog",
-    "rumah": "House",
-    "buku": "Book",
-    "meja": "Table",
-    "kursi": "Chair",
-    "makan": "Eat",
-    "minum": "Drink",
-    "selamat pagi": "Good morning",
-    "terima kasih": "Thank you",
-    "maaf": "Sorry",
-    "merah": "Red",
-    "biru": "Blue",
-    "hijau": "Green"
-    
     // Angka
     "satu": "one",
     "dua": "two",
