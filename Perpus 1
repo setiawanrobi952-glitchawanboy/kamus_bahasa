@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perpustakaan Digital Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Katalog Perpustakaan Digital</h1>
+        <input type="text" id="searchInput" placeholder="Cari Judul, Penulis, atau ISBN..." onkeyup="filterBooks()">
+    </header>
+
+    <main>
+        <div id="bookList" class="container">
+            </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Perpustakaan Digital | Dibuat dengan GitHub Pages</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
